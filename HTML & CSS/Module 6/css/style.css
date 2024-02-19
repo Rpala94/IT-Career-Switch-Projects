@@ -1,0 +1,36 @@
+body{
+    background-image: linear-gradient(white,black);
+}
+
+header img{
+    width: 100%;/* This streches the image across the viewport.*/
+    height: auto; /* The height will change based on the site of the viewport*/
+    max-width: 500px;
+
+}
+
+nav{
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black ;
+    border-radius: 1.0em; /*This rounds the corners of elements.*/
+    margin-bottom: 1em; /* This places space between elements*/
+
+}
+
+nav ul li{
+    list-style-type:none;
+}
+
+main{
+    margin-bottom: 1em; /* This places space between elements*/
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black ;
+    border-radius: 1.0em; /*This rounds the corners of elements.*/
+}
+
+footer{
+  
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black ;
+    border-radius: 1.0em; /*This rounds the corners of elements.*/
+}

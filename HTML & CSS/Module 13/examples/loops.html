@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<title>Home Page</title>
+
+<meta charset="utf-8">
+
+<script type="text/javascript">
+    function enter() {
+        var aNumber = 1;
+
+        var aString = "1";
+
+        var bString = "2";
+
+        var aBoolean = true;
+
+        alert(aBoolean);
+
+        var bNumber = 2;
+
+
+
+        while( aNumber < bNumber){
+
+            alert("aNumber is less than bNumber");
+
+            aNumber++;//increment operator adds 1
+
+            alert("The value of aNumber in the while loop is now,: " + aNumber);
+
+            }
+
+            aNumber = 0;
+
+
+        do{
+            alert("The value of aNumber in the do while loop is : " + aNumber);
+            
+            aNumber++;
+        }
+        while( aNumber < bNumber);
+    }
+
+</script>
+
+</head>
+
+<body>
+        
+<header></header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="datatypes.html">Data Types</a>
+    <a href="globalmethods.html">Global Methods</a>
+    <a href="variables.html">Variable</a>
+    <a href="conditional.html">Conditional Statements</a>
+    <a href="loops.html">Loops</a>
+    <a href="operators.html">Operators</a>
+</nav>
+
+<main>
+
+    <input type="submit" id="submit" value="Submit" onclick="enter()">
+
+
+</main>
+
+<footer></footer>
+
+</body>
+
+</html>

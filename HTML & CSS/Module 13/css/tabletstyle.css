@@ -1,0 +1,37 @@
+@media screen and (min-width:641px){
+   
+
+    nav ul li{
+        display: inline-block; /*This lists items horizontallyand allows them to strech.*/
+        border-radius: 1em;
+    }
+    
+    .desktop{
+    display: none;
+}
+    
+    nav ul li{
+        padding: 0.75em;
+       border-top: soild 0.2em black;
+        border-bottom: solid 0.2em black;
+        display: inline-block; /*This lists items horizontallyand allows them to strech.*/
+        border-radius: 1em;
+        box-shadow: 0.5em 0.5em 0.5em black;
+        min-width: 10%;
+}
+ main{
+    box-shadow: 0.5em 0.5em 0.5em black;
+ }
+figure{
+    box-shadow: 0.5em 0.5em 0.5em black;
+}
+    main div .center{
+        width: 60%;    
+        border-right: 0.3em solid black;
+    
+}
+   footer{
+    background-image: linear-gradient(white,black);
+   }
+}
+    

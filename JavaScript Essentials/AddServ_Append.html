@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src ="https://ajax.googleleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">>/script>
+<script>
+function appendText(){
+	var txt1 = "<p>This is text along with html markup</p>"; //Create text with HTML  
+	var txt2 = $("<p></p>").text("This is text."); // Create text with jquery
+	var txt3 = document.createElement("p");
+	txt3.innerHTML = "Text created using the DOM"; // Create text with the DOM
+	$("body").append(txt1,txt2,txt3); //Append new elements
+	}
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+<button onclick="appendText()">Append text </button>
+
+</body>
+</html>

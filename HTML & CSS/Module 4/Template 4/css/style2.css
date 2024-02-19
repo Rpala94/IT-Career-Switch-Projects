@@ -1,0 +1,27 @@
+h2{
+    color: white;
+    background-color: red;
+    font-family: Aerial, "Comic Sans", Calibri;
+    font-size: 3em;
+    text-align: center; /* This is help center text*/
+}
+h1{
+    background-color: white;
+}
+#container{
+    color: yellow;
+}
+
+.accent{
+    background-color: silver;
+    color: grey;
+}
+ body main div{
+    color: white;
+ }
+
+ footer{
+    background-color:rgb(23,216,126);
+    color: #6918c5;
+ }
+

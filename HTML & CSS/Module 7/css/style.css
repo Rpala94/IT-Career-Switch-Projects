@@ -1,0 +1,109 @@
+body{
+    background-image: linear-gradient(white,black);
+}
+
+header img{
+    width: 100%;/* This streches the image across the viewport.*/
+    height: auto; /* The height will change based on the site of the viewport*/
+    max-width: 500px;
+
+}
+
+nav{
+    background-color: white;
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black ;
+    border-radius: 1.0em; /*This rounds the corners of elements.*/
+    margin-bottom: 1em; /* This places space between elements*/
+
+    font-weight: bold;
+    text-align: center;
+
+}
+
+
+nav ul{
+
+    padding: 0;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+
+}
+
+nav ul li{
+    background-color: black;
+    padding: 1em;
+    min-width: 12%;
+    margin: 0.25em;
+    list-style-type:none; /*This removes bullet points*/
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none; /*This removes the line from the hyperlink*/
+}
+
+main{
+    background-color: white;
+    margin-bottom: 1em; /* This places space between elements*/
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black ;
+    border-radius: 1.0em; /*This rounds the corners of elements.*/
+}
+
+footer{
+    background-color: white;
+    border-top: solid 0.3em black;
+    border-bottom: solid 0.3em black ;
+    border-radius: 1.0em; /*This rounds the corners of elements.*/
+}
+/* Begin Mobile*/
+@media screen and (max-width:639px){
+    nav ul li{
+        display: inline-block;
+        border-radius: 1em;
+    }
+
+}
+    
+/*End Mobile*/
+
+
+/* Begin Tablet*/
+@media screen and (min-width:640px){
+    nav ul li{
+        display: inline-block; /*This lists items horizontallyand allows them to strech.*/
+        border-radius: 1em;
+    }
+
+}
+    
+/*End tablet*/
+
+
+
+/* Begin Desktop*/
+@media screen and (min-width:960px){
+   
+
+    header img{
+        width: auto;
+        height: 4.1em;
+    }
+
+    nav{
+        margin-top: -4.6em;/*this moves the nav element above where it would noramlly be*/
+        float: right; /*This float the nav element to the right*/
+        width: 70%;
+       
+
+    }
+    nav ul li{
+        display: inline-block; /*This lists items horizontallyand allows them to strech.*/
+        border-radius: 1em;
+      
+    }
+
+}
+    
+/*End Desktop*/
