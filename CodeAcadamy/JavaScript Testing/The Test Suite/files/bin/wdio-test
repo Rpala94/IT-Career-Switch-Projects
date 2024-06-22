@@ -1,6 +1,0 @@
-#/bin/sh
-
-set -e
-
-export NODE_ENV=test
-wdio wdio.conf.js
