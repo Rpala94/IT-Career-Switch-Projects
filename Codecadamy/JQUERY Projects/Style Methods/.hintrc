@@ -4,6 +4,7 @@
   ],
   "hints": {
     "meta-viewport": "off",
+<<<<<<< HEAD:Codecadamy/JQUERY Projects/Style Methods/.hintrc
     "axe/language": [
       "default",
       {
@@ -22,5 +23,34 @@
         "label": "off"
       }
     ]
+=======
+    "axe/forms": [
+      "default",
+      {
+        "label": "off",
+        "select-name": "off"
+      }
+    ],
+    "axe/language": [
+      "default",
+      {
+        "html-has-lang": "off"
+      }
+    ],
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
+    ],
+    "axe/text-alternatives": [
+      "default",
+      {
+        "image-alt": "off",
+        "document-title": "off"
+      }
+    ],
+    "button-type": "off"
+>>>>>>> 765bb305198e871797deef0e2ab1aa2e2b2fcee7:.hintrc
   }
 }
