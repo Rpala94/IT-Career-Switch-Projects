@@ -1,0 +1,66 @@
+html, body {
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	background-color: #ffffff;
+	font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+}
+
+#_App__app {
+	position: fixed;
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+#_App__app div {
+	width: 100%;
+}
+
+#_App__app div div {
+	position: absolute;
+	height: 100%;
+}
+
+#_App__app div div div {
+	position: relative;
+	height: auto;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+button {
+	margin: 20px;
+	padding: 7px 35px;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+label {
+	display: block;
+	margin: 20px;
+	font-size: 30px;
+	font-weight: bold;
+}
+._styles_Home_module__div {
+    background: pink url("https://content.codecademy.com/programs/react/images/welcome-to-my-homepage.gif");
+    height: 175px;
+    display: block;
+}
+ ._styles_AttentionGrabber_module__h1 {
+    color: green;
+    font-size: 4em;
+    font-family: "Comic Sans MS", Lucida Handwriting, cursive;
+    padding: 200px 0px 25px 0px;
+    margin: 0;
+}
+ 
